@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify – Web player: música para todas as pessoas</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="icon" href="assets/icons/favicon.png">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/vars.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/main-content.css">
+    <link rel="icon" href="src/assets/icons/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,22 +20,22 @@
         <nav class="sidebar__navigation">
             <div class="sidebar__navigation__logo">
                 <a href="#">
-                    <img src="assets/icons/logo-spotify.png" alt="Icone do Spotify">
+                    <img src="src/assets/icons/logo-spotify.png" alt="Icone do Spotify">
                 </a>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-house"></i>
-                                <span>Início</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-search"></i>
-                                <span>Buscar</span>
-                            </a>
-                        </li>
-                    </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-house"></i>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-search"></i>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
@@ -67,14 +69,43 @@
             </div>
         </div>
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="src/assets/icons/small-left.png" alt="Seta Esquerda">
+                    </button>
+                </div>
+                
+                    <button class="arrow-right">
+                        <img src="src/assets/icons/small-right.png" alt="Seta Direita">
+                    </button>
+
+                    <div class="header__search">
+                        <img src="src/assets/icons/search.png">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir ?"/>
+                    </div>
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </main>
+
     <footer class="content-footer">
         <section class="content-footer__conteudo">
             <p class="content-footer__conteudo__titulo">Testar o Premium de graça</p>
-            <p class="content-footer__conteudo__subtitulo">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+            <p class="content-footer__conteudo__subtitulo">Inscreva-se para curtir música ilimitada e podcasts só com
+                alguns anúncios. Não precisa de cartão de crédito.</p>
         </section>
         <button class="content-footer__conteudo__botao">
             Inscreva-se grátis
         </button>
     </footer>
 </body>
+
 </html>

@@ -1,0 +1,19 @@
+:root{
+    /* FONTES */
+    --fonte-dm-sans: "DM Sans", sans-serif;
+
+    /* CORES */
+    --cor-texto-branco: #fff;
+    --cor-fundo-preto: #000000;
+    --cor-fundo-branco: #fff;
+    --cor-fundo-cinza-1: #121212;
+    --cor-fundo-cinza-2: #b3b3b3;
+    --cor-fundo-cinza-3: #242424;
+    --cor-fundo-cinza-4: #878787;
+    --cor-texto-botao-1: #a7a7a7;
+    --cor-fundo-ico: #131313;
+    --cor-padrao-preto: #000;
+    --cor-arrow-color: rgba(0,0,7);
+    --cor-degrade-1: #ae2997;
+    --cor-degrade-2: #5c8de9;
+}

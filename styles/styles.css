@@ -16,13 +16,13 @@ body{
     padding: 10px 0;
 }
 
-
 .sidebar__navigation .sidebar__navigation__logo{
     background-color: #121212;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 0;
     flex-direction: column;
+    height: 127px;
 }
 
 .sidebar__navigation__logo img{
@@ -35,9 +35,13 @@ body{
     padding: 16px 0 0 16px;
 }
 
+.sidebar__navigation .fa{
+    font-size: 24px;
+}
+
 .sidebar nav a{
     margin-top: 20px;
-    margin: 0 20px 10px 20px;
+    margin: -17px 88px 17px 16px;
 }
 
 .sidebar nav ul a{
@@ -60,6 +64,7 @@ body{
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
+    height: 380px;
 }
 
 .libray .libray__content{
@@ -184,22 +189,42 @@ body{
     font-size: 14px;
 }
 
-footer{
+.content-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 98.5%;
+    height: 3.9rem;
+    background-image: linear-gradient(to right,#ae2997,#5c8de9);
     position: fixed;
     bottom: 0;
-    width: 100%;
+    margin: 10px;
 }
 
-.section-footer{
+.content-footer .content-footer__conteudo{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right,#ae2997,#5c8de9);
-    height: 50px;
-    margin: 5px;
-    padding: 20px 0 0 10px;
-    gap: 5px;
+    gap: 8px;
+    margin: 15px;
+    font-family: "DM Sans", sans-serif;
 }
 
-.section-footer .title{
+.content-footer__conteudo__titulo{
+    font-weight: 600;
+    font-size: 13px;
+}
 
+.content-footer__conteudo__subtitulo{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.content-footer .content-footer__conteudo__botao{
+    margin: 10px 35px 0 0 ;
+    border: none;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 24px;
+    width: 12rem;
+    height: 2.9rem;
+    cursor: pointer;
 }

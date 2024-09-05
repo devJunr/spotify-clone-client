@@ -1,0 +1,86 @@
+.album_image{
+    width: 70px;
+    margin: 45px 0 0 40px;
+    transform: rotate(15deg);
+}
+
+.playlist-container{
+    display: flex;
+    margin-left: 380px;
+    margin-top: -540px;
+    margin-right: 30px;
+    gap: 15px;
+    flex-grow: 4;
+    flex-wrap: wrap;
+}
+
+.playlist-container .album{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--fonte-dm-sans);
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 140px;
+    height: 140px;
+}
+
+.album-natal{
+    background-color: #1c7172;
+}
+
+.for-you{
+    background-color: #ad00ff;
+}
+
+.lancamentos{
+    background-color: #2b3460;
+}
+
+.creators{
+    background-color: #8d2d31;
+}
+
+.podcasts{
+    background-color: #546886;
+}
+
+.sertanejo{
+    background-color: #826290;
+}
+
+.samba-pagode{
+    background-color: #006b00;
+}
+
+.funk{
+    background-color: #2b3460;
+}
+
+.mpb{
+    background-color: #2b4860;
+}
+
+.rock{
+    background-color: #5b602b;
+}
+
+.hip-hop{
+    background-color: #602b2b;
+}
+
+.relax{
+    background-color: #0554af;
+}
+
+.latina{
+    background-color: #00566b;
+}
+
+.para-treinar{
+    background-color: #6b5700;
+}
+
+.indie{
+    background-color: #0524af;
+}
